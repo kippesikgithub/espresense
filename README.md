@@ -29,6 +29,15 @@ Image 3
 ![image](https://github.com/kippesikgithub/espresense/assets/100353268/3ee3082d-650f-4158-803f-46d95958fb11)  
 Image 4  
 
+## Setup HA config
+- make sure HA is working, MQTT broker is installed and working.
+- recommending using Studio code server for editing your config
+- the esp32/espresense devices themself, will be added to mqtt automatically
+- the Beacons like a phone, you have to add yourself. For example image 5
+![image](https://github.com/kippesikgithub/espresense/assets/100353268/407406dc-5e8b-4213-882e-c9dcb2b50541)
+Image 5
+
+
 ## Extra Info or Best practises
 - I created scripts, that turn of or on the blw transmitter, based on the location of the phone. When leaving the 'home' zone, HA will switch of the BLE transmitter on the phone, entering the 'home' zone, will turn on the BLE transmitter. Using Notification command for these scripts. https://companion.home-assistant.io/docs/notifications/notification-commands/
 - The more espresense (esp32) devices, the more accurate
