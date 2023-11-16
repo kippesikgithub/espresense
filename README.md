@@ -7,10 +7,10 @@ Espresense config and screenshots
 - go to the config of the esp32 (espresense) device, and at least fill in the room name and mqtt settings (see image 1)
 - click on 'edit other settings' and configure the filter and/or calibration part. the IBeaconID/UUID you can for example get from your HA companion app (see setup and configure HA companion app, image 2)
 
-![image](https://github.com/kippesikgithub/espresense/assets/100353268/803ce9aa-2d57-43a0-abc2-a4271531c817)
+![image](https://github.com/kippesikgithub/espresense/assets/100353268/803ce9aa-2d57-43a0-abc2-a4271531c817)  
 Image 1  
 
-![image](https://github.com/kippesikgithub/espresense/assets/100353268/f4cdfb3e-1ef7-47b7-90e4-14c5169a4112)
+![image](https://github.com/kippesikgithub/espresense/assets/100353268/f4cdfb3e-1ef7-47b7-90e4-14c5169a4112)  
 Image 2
 
 ## Setup and configure HA companion app
@@ -23,8 +23,8 @@ Image 2
 - put measured reception somewhere between -80 and -85 (my best practices for android phones) (image 4, number 1)
 - transmitting power from 'very low' to 'low' (image 4, number 2)
 
-![image](https://github.com/kippesikgithub/espresense/assets/100353268/60a4b6cc-d3e6-46a4-90b8-05ef0eebd5cd)
+![image](https://github.com/kippesikgithub/espresense/assets/100353268/60a4b6cc-d3e6-46a4-90b8-05ef0eebd5cd)  
 Image 3   
 
-![image](https://github.com/kippesikgithub/espresense/assets/100353268/3ee3082d-650f-4158-803f-46d95958fb11)
+![image](https://github.com/kippesikgithub/espresense/assets/100353268/3ee3082d-650f-4158-803f-46d95958fb11)  
 Image 4  
