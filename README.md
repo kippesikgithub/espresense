@@ -20,7 +20,7 @@ Image 2
 - scroll to the bluetooth sensors section (image 2)
 - Switch on the BLE Transmitter sensor
 - copy your UUID, you can use those for the recognition of the devices by adding IBeacon: in front of the UUID. (image 4, number 3)
-- put measured reception somewhere between -80 and -85 (my best practices for android phones) (image 4, number 1)
+- put measured power/reception somewhere between -80 and -85 (my best practices for android phones) (image 4, number 1)
 - transmitting power from 'very low' to 'low' (image 4, number 2)
 
 ![image](https://github.com/kippesikgithub/espresense/assets/100353268/60a4b6cc-d3e6-46a4-90b8-05ef0eebd5cd)  
@@ -28,3 +28,7 @@ Image 3
 
 ![image](https://github.com/kippesikgithub/espresense/assets/100353268/3ee3082d-650f-4158-803f-46d95958fb11)  
 Image 4  
+
+## Extra Info or Best practises
+- I created scripts, that turn of or on the blw transmitter, based on the location of the phone. When leaving the 'home' zone, HA will switch of the BLE transmitter on the phone, entering the 'home' zone, will turn on the BLE transmitter. Using Notification command for these scripts. https://companion.home-assistant.io/docs/notifications/notification-commands/
+- The more espresense (esp32) devices, the more accurate
