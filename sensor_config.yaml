@@ -1,15 +1,15 @@
 sensor:
   # EsPresence
   - platform: mqtt_room
-    device_id: "iBeacon:9db64fee-xxxx-xxxx-xxxx-xxxx6d332312-100-1"
-    name: "Pixel 4XL BLE"
-    state_topic: "espresense/rooms"
+    device_id: "iBeacon:22d06b50-2754-4851-a4df-ceb45f113429-100-1"
+    name: "Pixel6ProBLE"
+    state_topic: "espresense/devices/iBeacon:xxxxxxxx-xxxx-4851-a4df-ceb45f113429-100-1"
     timeout: 60
     away_timeout: 60
 
   - platform: mqtt_room
-    device_id: "iBeacon:22d06b50-xxxx-xxxx-xxxx-xxxxf113429_100_1"
-    name: "Pixel 6PRO BLE"
-    state_topic: "espresense/rooms"
+    device_id: "iBeacon:9db64fee-317c-47b9-8f80-5fbb6d332312-100-1"
+    name: "Pixel6Pro2BLE"
+    state_topic: "espresense/devices/iBeacon:xxxxxxxx-xxxx-47b9-8f80-5fbb6d332312-100-1"
     timeout: 60
     away_timeout: 60
