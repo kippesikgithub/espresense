@@ -1,3 +1,5 @@
+# NEW WAY OF INTEGRATION. ROOMS topic is deprecated, changed to espresense/devices/xxxx topic
+
 sensor:
   # EsPresence
   - platform: mqtt_room
