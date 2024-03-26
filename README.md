@@ -34,7 +34,7 @@ Image 4
 - recommending using Studio code server for editing your config
 - the esp32/espresense devices themself, will be added to mqtt automatically
 - the Beacons like a phone, you have to add yourself. For example image 5
-![image](https://github.com/kippesikgithub/espresense/assets/100353268/407406dc-5e8b-4213-882e-c9dcb2b50541)
+![image](https://github.com/kippesikgithub/espresense/assets/100353268/a6aa482c-8647-455a-8607-2bcf8c713b92)  
 Image 5
 
 
