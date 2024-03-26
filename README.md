@@ -39,5 +39,5 @@ Image 5
 
 
 ## Extra Info or Best practises
-- I created scripts, that turn of or on the blw transmitter, based on the location of the phone. When leaving the 'home' zone, HA will switch of the BLE transmitter on the phone, entering the 'home' zone, will turn on the BLE transmitter. Using Notification command for these scripts. https://companion.home-assistant.io/docs/notifications/notification-commands/
+- I created scripts, that turn of or on the BLE transmitter, based on the location of the phone. When leaving the 'home' zone, HA will switch of the BLE transmitter on the phone, entering the 'home' zone, will turn on the BLE transmitter. Using Notification command for these scripts. https://companion.home-assistant.io/docs/notifications/notification-commands/
 - The more espresense (esp32) devices, the more accurate
